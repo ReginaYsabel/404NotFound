@@ -1,0 +1,81 @@
+*{
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+.found{
+    padding: 3%;
+}
+
+.information{
+    display: flex; /* Put a div next to another */
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding-bottom: 4rem;
+}
+
+.scarecrow{
+    width: 50%; /* Divide a div into 2 columns */
+    text-align: center;
+}
+
+.news{
+    width: 50%; /* Divide a div into 2 columns */
+    text-align: left;
+}
+
+.imgscar{
+    width: 80%;
+}
+
+.title{
+    font-size: 3.5em; /* Responsive font size */
+    color: #333333;
+    padding-bottom: 3%;
+
+}
+
+.info{
+    font-size: 1.2em;
+    color: #4F4F4F;
+}
+
+.back{
+    margin-top: 5%;
+    background: #333333;
+    color: #fff;
+    border: none;
+    padding: 3%;
+    font-size: 0.9em;
+}
+
+footer{
+    position: absolute;
+    bottom: 0; /* Footer to stay at the bottom */
+    width: 100%;
+    color: #BDBDBD;
+}
+
+.foter{
+    text-align: center;
+    padding: 2%;
+}
+
+@media screen and (max-width: 725px){
+    .information{
+      flex-wrap: wrap;
+    }
+    .scarecrow{
+        width: 80%;
+    }
+    .news{
+        width: 80%;
+        text-align: center;
+    }
+}
